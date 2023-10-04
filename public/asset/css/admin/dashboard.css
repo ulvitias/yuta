@@ -1,0 +1,193 @@
+.header-dash {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+}
+.header-dash .hitung-dash {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-dash .hitung-dash .kiri-hitung-dash {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-dash .hitung-dash .kanan-hitung-dash {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-dash .hitung-dash .kiri-hitung-dash .core-kiri-hitung-dash {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  background: rgb(189, 255, 140);
+  background: linear-gradient(
+    65deg,
+    rgba(189, 255, 140, 1) 0%,
+    rgba(233, 203, 45, 1) 100%
+  );
+  border-radius: 5px;
+}
+.header-dash
+  .hitung-dash
+  .kiri-hitung-dash
+  .core-kiri-hitung-dash
+  .hitung-angka {
+  width: 100%;
+  height: 60%;
+}
+.header-dash
+  .hitung-dash
+  .kiri-hitung-dash
+  .core-kiri-hitung-dash
+  .hitung-angka
+  p {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: block;
+  font-size: 150%;
+  line-height: 250%;
+}
+.header-dash
+  .hitung-dash
+  .kiri-hitung-dash
+  .core-kiri-hitung-dash
+  .hitung-huruf {
+  width: 100%;
+  height: 40%;
+}
+.header-dash
+  .hitung-dash
+  .kiri-hitung-dash
+  .core-kiri-hitung-dash
+  .hitung-huruf
+  p {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: block;
+  font-size: 100%;
+  line-height: 200%;
+}
+.header-dash .hitung-dash .kanan-hitung-dash .core-kanan-hitung-dash {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  background: rgb(189, 255, 140);
+  background: linear-gradient(
+    65deg,
+    rgba(189, 255, 140, 1) 0%,
+    rgba(233, 203, 45, 1) 100%
+  );
+  border-radius: 5px;
+}
+.header-dash
+  .hitung-dash
+  .kanan-hitung-dash
+  .core-kanan-hitung-dash
+  .hitung-angka {
+  width: 100%;
+  height: 60%;
+}
+.header-dash
+  .hitung-dash
+  .kanan-hitung-dash
+  .core-kanan-hitung-dash
+  .hitung-angka
+  p {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: block;
+  font-size: 150%;
+  line-height: 250%;
+}
+.header-dash
+  .hitung-dash
+  .kanan-hitung-dash
+  .core-kanan-hitung-dash
+  .hitung-huruf {
+  width: 100%;
+  height: 40%;
+}
+.header-dash
+  .hitung-dash
+  .kanan-hitung-dash
+  .core-kanan-hitung-dash
+  .hitung-huruf
+  p {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: block;
+  font-size: 100%;
+  line-height: 200%;
+}
+
+.proses {
+  margin-top: 20px;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  height: 300px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+}
+.proses .proses-border {
+  width: 50%;
+  height: 100px;
+  float: left;
+  margin: 20px 0 20px 0;
+}
+.proses .proses-border a .proses-core {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  border-radius: 5px;
+}
+.proses .proses-border a .proses-core .proses-bg {
+  width: 98%;
+  height: 100%;
+  float: right;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+.proses .proses-border a .proses-core .proses-bg .proses-dalem {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+.proses .proses-border a .proses-core:hover {
+  padding-bottom: 10px;
+  background: rgb(255, 122, 33);
+}
+.proses .proses-border a .proses-core .proses-bg .proses-dalem p {
+  font-size: 25px;
+  line-height: 50px;
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+.proses .proses-border a .color1 {
+  background: rgb(216, 125, 40);
+}
+.proses .proses-border a .color2 {
+  background: #5910ad;
+}
+.proses .proses-border a .color3 {
+  background: #ad105e;
+}
+.proses .proses-border a .color4 {
+  background: #24c1dd;
+}
+.proses .proses-border a {
+  text-decoration: none;
+  color: black;
+}

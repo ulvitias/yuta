@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.header-kanan {
+  padding-left: 5px;
+  height: 45px;
+}
+.mark {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.mark .head {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+}
+.mark .head p {
+  margin: 0;
+  width: 100%;
+  line-height: 50px;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  display: block;
+  color: #e06629;
+}
+.mark .body {
+  margin-top: 30px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  padding-bottom: 10px;
+}
+.mark .body .body-core {
+  width: 100%;
+}
+.mark .body .body-core .peminjam {
+  height: 60px;
+}
+.mark .body .body-core .peminjam .label-peminjam {
+  width: 28%;
+  height: 100%;
+  float: left;
+  padding-left: 2%;
+}
+
+.mark .body .body-core .peminjam .label-peminjam p {
+  display: block;
+  margin: 0;
+  line-height: 60px;
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+}
+.mark .body .body-core .peminjam .data-peminjam {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+.mark .body .body-core .peminjam .data-peminjam p {
+  display: block;
+  margin: 0;
+  line-height: 60px;
+  font-size: 25px;
+  font-family: "lato", sans-serif;
+}
+.tambah-submit {
+  margin-top: 30px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.tambah-submit a button {
+  width: 20%;
+  height: 100%;
+  background: #da6b34;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 10px;
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+.tambah-submit a button:hover {
+  background: #eb8e60;
+}
+.tambah-submit a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+  .mark {
+    width: 95%;
+  }
+  .mark .body .body-core .peminjam {
+    height: 60px;
+  }
+  .mark .body .body-core .peminjam .label-peminjam {
+    width: 28%;
+    padding-left: 2%;
+    height: 50%;
+  }
+  .mark .body .body-core .peminjam .label-peminjam p {
+    font-size: 100%;
+    line-height: 60px;
+  }
+  .mark .body .body-core .peminjam .data-peminjam {
+    width: 70%;
+    height: 50%;
+  }
+  .mark .body .body-core .peminjam .data-peminjam p {
+    font-size: 100%;
+    line-height: 60px;
+  }
+}

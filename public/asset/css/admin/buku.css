@@ -1,0 +1,196 @@
+.core .mid .mid-core .blog-post {
+  margin-top: 30px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  padding: 10px 0 10px 0;
+}
+.core .mid .mid-core .blog-post .body-post {
+  width: 98%;
+  margin: auto;
+}
+.core .mid .mid-core .blog-post .body-post .header-admin {
+  width: 100%;
+  height: 45px;
+}
+
+.header-kiri {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.header-kiri form {
+  width: 50%;
+  float: right;
+}
+.header-kiri form input {
+  width: 77%;
+  height: 100%;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background: transparent;
+  outline: none;
+  float: left;
+  padding-left: 20px;
+}
+.header-kiri form a {
+  width: 3%;
+  height: 100%;
+  line-height: 45px;
+  display: block;
+  text-decoration: none;
+  float: left;
+  color: #e2852e;
+  font-family: "lato", sans-serif;
+}
+.header-kiri form button {
+  width: 18%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-left: 2%;
+  font-size: 20px;
+  background: #e2852e;
+  float: left;
+  color: whitesmoke;
+}
+.header-kanan {
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
+}
+.header-kanan button {
+  width: 150px;
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+  border: none;
+  background: rgb(240, 143, 64);
+  border-radius: 3px 3px 3px 3px;
+}
+.header-kanan button:hover {
+  background: rgb(223, 167, 47);
+}
+.header-kanan button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.core .mid .mid-core .blog-post .body-post .table-ready {
+  width: 100%;
+  margin-top: 70px;
+}
+.table-ready table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-ready table .judul {
+  font-family: "lato", sans-serif;
+  background: rgb(243, 125, 57);
+  height: 50px;
+  text-align: left;
+}
+.table-ready table .judul .aksi {
+  text-align: center;
+}
+.table-ready table .isi {
+  height: 40px;
+  background: transparent;
+}
+.table-ready table .isi td {
+  padding-left: 10px;
+  height: 50px;
+  font-family: "lato", sans-serif;
+}
+.table-ready table .isi td a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+.table-ready table .isi td a button {
+  width: 30%;
+  height: 40px;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+.table-ready table .isi td a button img {
+  height: 60%;
+  padding-top: 1px;
+}
+.table-ready table .isi td .green {
+  background-color: rgb(65, 192, 65);
+}
+.table-ready table .isi td .red {
+  background: rgb(255, 62, 62);
+}
+.table-ready table .isi td .blue {
+  background: rgb(92, 204, 248);
+}
+@media only screen and (max-width: 1200px) {
+  .tahun_sk {
+    display: none;
+  }
+  .header-kiri {
+    width: 100%;
+    float: none;
+  }
+  .header-kanan {
+    width: 100%;
+    float: none;
+  }
+  .penerbit {
+    display: none;
+  }
+  .pengarang {
+    display: none;
+  }
+  .mapel {
+    display: none;
+  }
+  .judul .aksi {
+    width: 10px;
+  }
+  .gender {
+    display: none;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .tahun_sk {
+    display: none;
+  }
+  .header-kiri {
+    width: 100%;
+    float: none;
+  }
+  .header-kanan {
+    width: 100%;
+    float: none;
+  }
+  .penerbit {
+    display: none;
+  }
+  .pengarang {
+    display: none;
+  }
+  .mapel {
+    display: none;
+  }
+  .judul .aksi {
+    width: 10px;
+  }
+  .gender {
+    display: none;
+  }
+  .nomer,
+  .kelas,
+  .tahun,
+  .gender,
+  .jabatan,
+  .kategori {
+    display: none;
+  }
+}

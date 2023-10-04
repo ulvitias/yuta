@@ -1,0 +1,99 @@
+.core .mid .mid-core .blog-post {
+  margin-top: 30px;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  padding: 10px 0 10px 0;
+}
+.core .mid .mid-core .blog-post .body-post {
+  width: 98%;
+  margin: auto;
+}
+.core .mid .mid-core .blog-post .body-post .header-admin {
+  width: 100%;
+  height: 45px;
+}
+
+.header-kiri {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.header-kanan {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.header-kanan button {
+  width: 150px;
+  height: 100%;
+  float: right;
+  border: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  background: rgb(240, 143, 64);
+  border-radius: 3px 3px 3px 3px;
+}
+.header-kanan button:hover {
+  background: rgb(223, 167, 47);
+}
+.header-kanan button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.core .mid .mid-core .blog-post .body-post .table-ready {
+  width: 100%;
+  margin-top: 30px;
+}
+.table-ready table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: rgb(255, 255, 255);
+}
+.table-ready table .judul {
+  background: rgb(243, 125, 57);
+  height: 50px;
+}
+.table-ready table .judul .nomer {
+  width: 5%;
+}
+.table-ready table .judul .id {
+  width: 10%;
+}
+.table-ready table .judul .judul {
+  width: 20%;
+}
+.table-ready table .judul .pengarang {
+  width: 15%;
+}
+.table-ready table .judul .penerbit {
+  width: 15%;
+}
+.table-ready table .judul .kategori {
+  width: 15%;
+}
+.table-ready table .judul .tahun_sk {
+  width: 5%;
+}
+.table-ready table .judul .mapel {
+  width: 15%;
+}
+.table-ready table .isi {
+  height: 40px;
+  background: whitesmoke;
+}
+.table-ready table .isi td {
+  padding-left: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  .table-ready table .judul {
+    background: rgb(243, 125, 57);
+    height: 30px;
+  }
+  .table-ready table .judul tr th {
+    font-size: 10px;
+    font-style: normal;
+  }
+}

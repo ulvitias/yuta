@@ -1,0 +1,177 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.mark {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.mark .head {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+}
+.mark .head p {
+  margin: 0;
+  width: 100%;
+  line-height: 50px;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  display: block;
+  color: #e06629;
+}
+.mark .body {
+  margin-top: 30px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  padding-bottom: 10px;
+}
+.mark .body .foto {
+  text-align: center;
+}
+.mark .body .foto img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+}
+.mark .body form {
+  width: 100%;
+}
+.mark .body form .input-data {
+  width: 95%;
+  margin: 30px 0 30px 0;
+  height: 40px;
+}
+.mark .body form .input-data label {
+  width: 18%;
+  float: left;
+  height: 100%;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  padding-left: 2%;
+}
+.mark .body form .input-data input {
+  width: 80%;
+  height: 100%;
+  line-height: 60px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color: transparent;
+  outline: none;
+  caret-color: #000000;
+  font-size: 100%;
+  color: black;
+}
+.mark .body form .input-data select {
+  width: 80%;
+  height: 100%;
+  line-height: 60px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color: transparent;
+  outline: none;
+  caret-color: #000000;
+  font-size: 100%;
+  color: black;
+}
+.buku-daftar .input-data select {
+  width: 80%;
+  height: 100%;
+  line-height: 60px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color: transparent;
+  outline: none;
+  caret-color: #000000;
+  font-size: 100%;
+  color: black;
+}
+.mark .body form .input-data input[type="text"]::placeholder {
+  color: var(--warna-font);
+  opacity: 50%;
+}
+.mark .body form .tambah-submit {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+.mark .body form .tambah-submit {
+  text-decoration: none;
+}
+.mark .body form .tambah-submit input {
+  width: 20%;
+  height: 100%;
+  background: #e98553;
+  border: none;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 10px;
+}
+.mark .body form .tambah-submit button {
+  width: 20%;
+  height: 100%;
+  background: #da6b34;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 10px;
+}
+.mark .body form .tambah-submit button {
+  background: #e06629;
+  width: 20%;
+  height: 100%;
+}
+.mark .body form .tambah-submit button a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: whitesmoke;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background: #0f0f0f;
+  bottom: 0;
+}
+@media only screen and (max-width: 900px) {
+  .mark {
+    width: 95%;
+  }
+  .mark .body form .input-data {
+    display: block;
+    margin: 15px 5px 0 10px;
+    height: 70px;
+    width: 98%;
+  }
+  .mark .body form .input-data label {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    height: 30px;
+  }
+
+  .mark .body form .input-data input {
+    float: none;
+    width: 100%;
+    height: 30px;
+  }
+  .mark .body form .input-data select {
+    float: none;
+    width: 100%;
+    height: 30px;
+  }
+}

@@ -1,0 +1,303 @@
+.theme-light {
+  --base: #eff2f9;
+  --level-satu: #fdfcfc;
+  --level-dua: #f3f3f3;
+  --warna-font: #242424;
+  --font-fams: "Open Sans", sans-serif;
+  --caret-color: rgb(34, 34, 34);
+  --hover: #f0cef5;
+}
+.theme-dark {
+  --base: #535353;
+  --level-satu: #616161;
+  --level-dua: #3a095a;
+  --warna-font: #dadada;
+  --font-fams: "Open Sans", sans-serif;
+  --caret-color: whitesmoke;
+  --hover: ##f0cef5;
+}
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: var(--base);
+}
+.marker-dua {
+  width: 15%;
+  height: 100%;
+  float: left;
+  display: block;
+  position: fixed;
+}
+.marker-dua .left-dua {
+  width: 100%;
+  display: block;
+  height: 100%;
+  background: var(--level-satu);
+  -webkit-box-shadow: 5px 0px 12px 5px #00000057;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  border-radius: 0px 5px 5px 0px;
+}
+.marker-dua .left-dua .left-top {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.marker-dua .left-dua .kembali-mobile {
+  display: none;
+}
+.marker-dua .left-dua .left-top img {
+  height: 55%;
+  margin-top: 20px;
+}
+.marker-dua .left-dua .left-mid {
+  width: 100%;
+  margin-top: 20px;
+}
+.marker-dua .left-dua .left-mid h3 {
+  width: 98%;
+  margin: 10px 0px 0px 2%;
+  height: 40px;
+  display: block;
+  font-family: var(--font-fams);
+  font-weight: 600;
+  border-top: 2px solid #00000057;
+  line-height: 40px;
+}
+.marker-dua .left-dua .left-mid a {
+  text-decoration: none;
+}
+.marker-dua .left-dua .left-mid a .menu {
+  width: 95%;
+  height: 30px;
+  padding-left: 5%;
+  margin: 5px 0 0 0;
+}
+.marker-dua .left-dua .left-mid a .menu:hover {
+  background: var(--hover);
+}
+.marker-dua .left-dua .left-mid a .menu .icon {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.marker-dua .left-dua .left-mid a .menu .icon img {
+  height: 75%;
+  margin-top: 6px;
+}
+.marker-dua .left-dua .left-mid a .menu .menu {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+.marker-dua .left-dua .left-mid a .menu .kata p {
+  font-family: var(--font-fams);
+  color: var(--warna-font);
+  font-size: 12px;
+  display: block;
+  margin: 0;
+  line-height: 30px;
+}
+/* xzzxzxz */
+.marker {
+  width: 15%;
+  height: 100%;
+  float: left;
+  display: block;
+  position: fixed;
+}
+.marker .left {
+  width: 100%;
+  display: block;
+  height: 100%;
+  background: var(--level-satu);
+  -webkit-box-shadow: 5px 0px 12px 5px #00000057;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  border-radius: 0px 5px 5px 0px;
+}
+/* pembatas LEFT TOP MID BOT*/
+.marker .left .left-top {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.marker .left .kembali-mobile {
+  display: none;
+}
+.marker .left .left-top img {
+  height: 55%;
+  margin-top: 20px;
+}
+.marker .left .left-mid {
+  width: 100%;
+  margin-top: 20px;
+}
+.marker .left .left-mid h3 {
+  width: 98%;
+  margin: 10px 0px 0px 2%;
+  height: 40px;
+  display: block;
+  font-family: var(--font-fams);
+  font-weight: 600;
+  border-top: 2px solid #00000057;
+  line-height: 40px;
+}
+.marker .left .left-mid a {
+  text-decoration: none;
+}
+.marker .left .left-mid a .menu {
+  width: 95%;
+  height: 30px;
+  padding-left: 5%;
+  margin: 5px 0 0 0;
+}
+.marker .left .left-mid a .menu:hover {
+  background: var(--hover);
+}
+.marker .left .left-mid a .menu .icon {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.marker .left .left-mid a .menu .icon img {
+  height: 75%;
+  margin-top: 6px;
+}
+.marker .left .left-mid a .menu .menu {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+.marker .left .left-mid a .menu .kata p {
+  font-family: var(--font-fams);
+  color: var(--warna-font);
+  font-size: 12px;
+  display: block;
+  margin: 0;
+  line-height: 30px;
+}
+/* PEMBATAS TOP LMID BOT */
+
+.core {
+  width: 85%;
+  float: right;
+}
+.core .mid {
+  width: 99%;
+  margin: auto;
+}
+.core .mid .mid-core {
+  width: 95%;
+  margin: auto;
+}
+.core .mid .mid-core .header {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 0px 12px 5px #00000057;
+}
+.core .mid .mid-core .header .button-mobile {
+  display: none;
+}
+.core .mid .mid-core .header .button-mobile a img {
+  height: 70%;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.core .mid .mid-core .header .judul {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.core .mid .mid-core .header .akun-mobile {
+  display: none;
+}
+.core .mid .mid-core .header .akun-mobile a img {
+  height: 70%;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+.core .mid .mid-core .header .judul p {
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  display: block;
+  color: #e06629;
+}
+.marker-dua {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .marker-dua .left-dua .kembali-mobile {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00000057;
+    text-align: right;
+  }
+  .marker-dua .left-dua .kembali-mobile a {
+    text-decoration: none;
+  }
+  .marker-dua .left-dua .kembali-mobile a .icon {
+    width: 65%;
+    height: 100%;
+    float: left;
+  }
+  .marker-dua .left-dua .kembali-mobile a .icon img {
+    height: 70%;
+    margin-top: 8px;
+  }
+  .marker-dua .left-dua .kembali-mobile a .huruf {
+    width: 35%;
+    height: 100%;
+    float: left;
+  }
+  .marker-dua .left-dua .kembali-mobile a .huruf p {
+    margin: 0 15px 0 0;
+    font-size: 20px;
+    font-family: var(--font-fams);
+    color: var(--warna-font);
+    display: block;
+    line-height: 50px;
+  }
+  .marker {
+    display: none;
+  }
+  .marker .left {
+    display: none;
+  }
+  .marker-dua {
+    width: 60%;
+  }
+  .marker-dua .left-dua {
+    width: 100%;
+  }
+  .marker .left .left-top img {
+    margin-top: 20px;
+  }
+  .core {
+    width: 100%;
+  }
+  .core .mid .mid-core .header .akun-mobile {
+    display: block;
+    width: 15%;
+    height: 100%;
+    float: left;
+  }
+  .core .mid .mid-core .header .button-mobile {
+    display: block;
+    width: 15%;
+    height: 100%;
+    float: left;
+  }
+  .core .mid .mid-core .header .judul {
+    width: 70%;
+  }
+}

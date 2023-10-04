@@ -1,0 +1,240 @@
+.kembali-core {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.kembali-core .kembali-body {
+  width: 100%;
+}
+.header-kiri {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.kembali-core .kembali-body .kembali-judul {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  border-radius: 10px 10px 10px 10px;
+}
+.kembali-core .kembali-body .kembali-judul ul {
+  padding: 0;
+  width: 100%;
+  height: 45px;
+}
+.kembali-core .kembali-body .kembali-judul ul li {
+  list-style-type: none;
+  display: block;
+  line-height: 50px;
+  float: left;
+  font-family: "lato", sans-serif;
+}
+.kembali-core .kembali-body .kembali-judul ul .nama {
+  width: 20%;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.kembali-core .kembali-body .kembali-judul ul .tgl_pinjam {
+  width: 19%;
+}
+.kembali-core .kembali-body .kembali-judul ul .tgl_kembali {
+  width: 19%;
+}
+.kembali-core .kembali-body .kembali-judul ul .nama_buku {
+  width: 20%;
+}
+.kembali-core .kembali-body .kembali-judul ul .status {
+  width: 20%;
+  text-align: center;
+}
+
+.kembali-core .kembali-body .kembali-isi {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: #ffffff;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  border-radius: 10px 10px 10px 10px;
+}
+.kembali-core .kembali-body .kembali-isi ul {
+  padding: 0;
+  margin: 10px 0 10px 0;
+  height: 30px;
+  width: 100%;
+}
+.kembali-core .kembali-body .kembali-isi ul:hover {
+  background: #c2c2c2;
+}
+.kembali-core .kembali-body .kembali-isi ul li {
+  list-style-type: none;
+  display: block;
+  line-height: 30px;
+  float: left;
+  font-family: "lato", sans-serif;
+}
+
+.kembali-core .kembali-body .kembali-isi ul .nama {
+  width: 20%;
+  border-left: 3px solid #f0714a;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.kembali-core .kembali-body .kembali-isi ul .tgl_pinjam {
+  width: 19%;
+}
+.kembali-core .kembali-body .kembali-isi ul .tgl_kembali {
+  width: 19%;
+}
+.kembali-core .kembali-body .kembali-isi ul .nama_buku {
+  width: 20%;
+}
+.kembali-core .kembali-body .kembali-isi ul .status {
+  width: 20%;
+  text-align: center;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border a {
+  text-align: center;
+  text-decoration: none;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border a button {
+  width: 40%;
+  height: 100%;
+  border: none;
+  background: #ff6232;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border a button:hover {
+  background: #f0714a;
+  cursor: pointer;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border .kem {
+  width: 45%;
+  height: 100%;
+  background: #54e947;
+  text-align: center;
+  float: left;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.kembali-core .kembali-body .kembali-isi ul .status .border .kem1 {
+  width: 45%;
+  height: 100%;
+  background: #ccdbca;
+  text-align: center;
+  float: left;
+  border-radius: 5px;
+  font-size: 12px;
+}
+h2 {
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+.kembali-core .kembali-body .kembali-submit {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0 10px 0;
+  background: #ffffff;
+  box-shadow: 5px 0px 12px 5px #00000057;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.kembali-core .kembali-body .kembali-submit .kiri-sub {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.kembali-core .kembali-body .kembali-submit .kiri-sub .huruf {
+  width: 48%;
+  padding-left: 2%;
+  height: 100%;
+  float: left;
+  display: block;
+  line-height: 50px;
+  font-family: "lato", sans-serif;
+}
+.kembali-core .kembali-body .kembali-submit .kiri-sub .jumlah {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: block;
+  line-height: 50px;
+  font-family: "lato", sans-serif;
+}
+.kembali-core .kembali-body .kembali-submit .kanan-sub {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.kembali-core .kembali-body .kembali-submit .kanan-sub .kosong {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: block;
+  line-height: 50px;
+  font-family: "lato", sans-serif;
+}
+.kembali-core .kembali-body .kembali-submit .kanan-sub .tombol {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.kembali-core .kembali-body .kembali-submit .kanan-sub .tombol a {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+.kembali-core .kembali-body .kembali-submit .kanan-sub .tombol button {
+  width: 90%;
+  margin: 5px 0 5px 0;
+  height: 40px;
+  background: #f0714a;
+  border: none;
+  border-radius: 5px;
+  font-family: "lato", sans-serif;
+  color: whitesmoke;
+}
+@media only screen and (max-width: 720px) {
+  .kembali-core .kembali-body .kembali-isi ul .tgl_kembali,
+  .kembali-core .kembali-body .kembali-isi ul .tgl_pinjam,
+  .kembali-core .kembali-body .kembali-judul ul .tgl_kembali,
+  .kembali-core .kembali-body .kembali-judul ul .tgl_pinjam {
+    display: none;
+  }
+  .kembali-core .kembali-body .kembali-isi {
+    width: 800px;
+  }
+  .kembali-body {
+    width: 800px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  .kembali-core .kembali-body .kembali-isi ul .nama {
+    width: 40%;
+  }
+  .kembali-core .kembali-body .kembali-isi ul .nama_buku {
+    width: 30%;
+  }
+  .kembali-core .kembali-body .kembali-isi ul .status {
+    width: 20%;
+  }
+  .kembali-core .kembali-body .kembali-judul ul .nama {
+    width: 40%;
+  }
+  .kembali-core .kembali-body .kembali-judul ul .nama_buku {
+    width: 30%;
+  }
+  .kembali-core .kembali-body .kembali-judul ul .status {
+    width: 20%;
+  }
+}

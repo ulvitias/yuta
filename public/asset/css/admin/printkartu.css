@@ -1,0 +1,130 @@
+.cor {
+  width: 1020px;
+  height: 420px;
+  margin: 20px;
+}
+.cor .kiri {
+  width: 450px;
+  height: 400px;
+  float: left;
+  margin-right: 25px;
+  border: 5px solid black;
+}
+.cor .kiri table tr .nm {
+  width: 30px;
+  text-align: center;
+  vertical-align: top;
+}
+.cor .kiri .tb2 {
+  margin-top: 45px;
+  width: 450px;
+}
+.cor .kanan {
+  width: 450px;
+  height: 400px;
+  border: 5px solid black;
+  float: left;
+  margin-left: 25px;
+}
+.cor .kanan .logo-kiri {
+  width: 50px;
+  height: 100px;
+  float: left;
+}
+.cor .kanan .logo-kiri img {
+  height: 55%;
+  margin-top: 3px;
+}
+.cor .kanan .logo-tengah {
+  width: 350px;
+  height: 80px;
+  float: left;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.cor .kanan .logo-tengah p {
+  margin: 0;
+}
+.cor .kanan .logo-tengah .pem {
+  font-size: 12px;
+}
+.cor .kanan .logo-tengah .din {
+  font-size: 10px;
+}
+.cor .kanan .logo-tengah .smp {
+  font-size: 10px;
+}
+.cor .kanan .logo-tengah .ter {
+  font-size: 9px;
+}
+.cor .kanan .logo-tengah .jal {
+  font-size: 8px;
+}
+.cor .kanan .logo-kanan {
+  width: 50px;
+  height: 100px;
+  float: left;
+}
+.cor .kanan .logo-kanan img {
+  height: 50%;
+  margin-top: 3px;
+}
+.cor .kanan .dango {
+  float: left;
+  width: 100%;
+  height: 300px;
+  border-top: 2px solid black;
+  text-align: center;
+}
+.cor .kanan .dango .dango-atas {
+  width: 100%;
+  height: 50px;
+}
+.cor .kanan .dango .dango-atas p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cor .kanan .dango .dango-tengah {
+  width: 100%;
+  height: 80px;
+}
+.cor .kanan .dango .dango-tengah img {
+  height: 70%;
+}
+.cor .kanan .dango .dango-bawah {
+  width: 100%;
+  height: 170px;
+}
+.cor .kanan .dango .dango-bawah .hidden-anggota {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+.cor .kanan .dango .dango-bawah .hidden-anggota .label1 {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.cor .kanan .dango .dango-bawah .hidden-anggota .label1 p {
+  margin: 0 0 0 20px;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  font-size: 12px;
+  font-family: "lato", sans-serif;
+}
+.cor .kanan .dango .dango-bawah .hidden-anggota .label2 {
+  width: 70%;
+  float: left;
+  height: 100%;
+  border-bottom: 2px solid black;
+}
+.cor .kanan .dango .dango-bawah .hidden-anggota .label2 p {
+  margin: 0;
+  text-align: left;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: "lato", sans-serif;
+}
